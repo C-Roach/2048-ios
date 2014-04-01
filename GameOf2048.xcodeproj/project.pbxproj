@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B722A51A18E5BAE500F34937 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B722A51918E5BAE500F34937 /* Foundation.framework */; };
+		B722A51C18E5BAE500F34937 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B722A51B18E5BAE500F34937 /* CoreGraphics.framework */; };
+		B722A51E18E5BAE500F34937 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B722A51D18E5BAE500F34937 /* UIKit.framework */; };
+		B722A52418E5BAE500F34937 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B722A52218E5BAE500F34937 /* InfoPlist.strings */; };
+		B722A52618E5BAE500F34937 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B722A52518E5BAE500F34937 /* main.m */; };
+		B722A52A18E5BAE500F34937 /* GameOf2048AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B722A52918E5BAE500F34937 /* GameOf2048AppDelegate.m */; };
+		B722A52D18E5BAE500F34937 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B722A52B18E5BAE500F34937 /* Main.storyboard */; };
+		B722A53018E5BAE500F34937 /* GameOf2048ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B722A52F18E5BAE500F34937 /* GameOf2048ViewController.m */; };
+		B722A53218E5BAE500F34937 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B722A53118E5BAE500F34937 /* Images.xcassets */; };
+		B722A53918E5BAE500F34937 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B722A53818E5BAE500F34937 /* XCTest.framework */; };
+		B722A53A18E5BAE500F34937 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B722A51918E5BAE500F34937 /* Foundation.framework */; };
+		B722A53B18E5BAE500F34937 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B722A51D18E5BAE500F34937 /* UIKit.framework */; };
+		B722A54318E5BAE500F34937 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B722A54118E5BAE500F34937 /* InfoPlist.strings */; };
+		B722A54518E5BAE500F34937 /* GameOf2048Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B722A54418E5BAE500F34937 /* GameOf2048Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B722A53C18E5BAE500F34937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B722A50E18E5BAE400F34937 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B722A51518E5BAE400F34937;
+			remoteInfo = GameOf2048;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B722A51618E5BAE500F34937 /* GameOf2048.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOf2048.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B722A51918E5BAE500F34937 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B722A51B18E5BAE500F34937 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B722A51D18E5BAE500F34937 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B722A52118E5BAE500F34937 /* GameOf2048-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GameOf2048-Info.plist"; sourceTree = "<group>"; };
+		B722A52318E5BAE500F34937 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B722A52518E5BAE500F34937 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B722A52718E5BAE500F34937 /* GameOf2048-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GameOf2048-Prefix.pch"; sourceTree = "<group>"; };
+		B722A52818E5BAE500F34937 /* GameOf2048AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameOf2048AppDelegate.h; sourceTree = "<group>"; };
+		B722A52918E5BAE500F34937 /* GameOf2048AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameOf2048AppDelegate.m; sourceTree = "<group>"; };
+		B722A52C18E5BAE500F34937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B722A52E18E5BAE500F34937 /* GameOf2048ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameOf2048ViewController.h; sourceTree = "<group>"; };
+		B722A52F18E5BAE500F34937 /* GameOf2048ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameOf2048ViewController.m; sourceTree = "<group>"; };
+		B722A53118E5BAE500F34937 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B722A53718E5BAE500F34937 /* GameOf2048Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameOf2048Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B722A53818E5BAE500F34937 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B722A54018E5BAE500F34937 /* GameOf2048Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GameOf2048Tests-Info.plist"; sourceTree = "<group>"; };
+		B722A54218E5BAE500F34937 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B722A54418E5BAE500F34937 /* GameOf2048Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameOf2048Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B722A51318E5BAE400F34937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B722A51C18E5BAE500F34937 /* CoreGraphics.framework in Frameworks */,
+				B722A51E18E5BAE500F34937 /* UIKit.framework in Frameworks */,
+				B722A51A18E5BAE500F34937 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B722A53418E5BAE500F34937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B722A53918E5BAE500F34937 /* XCTest.framework in Frameworks */,
+				B722A53B18E5BAE500F34937 /* UIKit.framework in Frameworks */,
+				B722A53A18E5BAE500F34937 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B722A50D18E5BAE400F34937 = {
+			isa = PBXGroup;
+			children = (
+				B722A51F18E5BAE500F34937 /* GameOf2048 */,
+				B722A53E18E5BAE500F34937 /* GameOf2048Tests */,
+				B722A51818E5BAE500F34937 /* Frameworks */,
+				B722A51718E5BAE500F34937 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B722A51718E5BAE500F34937 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B722A51618E5BAE500F34937 /* GameOf2048.app */,
+				B722A53718E5BAE500F34937 /* GameOf2048Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B722A51818E5BAE500F34937 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B722A51918E5BAE500F34937 /* Foundation.framework */,
+				B722A51B18E5BAE500F34937 /* CoreGraphics.framework */,
+				B722A51D18E5BAE500F34937 /* UIKit.framework */,
+				B722A53818E5BAE500F34937 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B722A51F18E5BAE500F34937 /* GameOf2048 */ = {
+			isa = PBXGroup;
+			children = (
+				B722A52818E5BAE500F34937 /* GameOf2048AppDelegate.h */,
+				B722A52918E5BAE500F34937 /* GameOf2048AppDelegate.m */,
+				B722A52B18E5BAE500F34937 /* Main.storyboard */,
+				B722A52E18E5BAE500F34937 /* GameOf2048ViewController.h */,
+				B722A52F18E5BAE500F34937 /* GameOf2048ViewController.m */,
+				B722A53118E5BAE500F34937 /* Images.xcassets */,
+				B722A52018E5BAE500F34937 /* Supporting Files */,
+			);
+			path = GameOf2048;
+			sourceTree = "<group>";
+		};
+		B722A52018E5BAE500F34937 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B722A52118E5BAE500F34937 /* GameOf2048-Info.plist */,
+				B722A52218E5BAE500F34937 /* InfoPlist.strings */,
+				B722A52518E5BAE500F34937 /* main.m */,
+				B722A52718E5BAE500F34937 /* GameOf2048-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B722A53E18E5BAE500F34937 /* GameOf2048Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B722A54418E5BAE500F34937 /* GameOf2048Tests.m */,
+				B722A53F18E5BAE500F34937 /* Supporting Files */,
+			);
+			path = GameOf2048Tests;
+			sourceTree = "<group>";
+		};
+		B722A53F18E5BAE500F34937 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B722A54018E5BAE500F34937 /* GameOf2048Tests-Info.plist */,
+				B722A54118E5BAE500F34937 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B722A51518E5BAE400F34937 /* GameOf2048 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B722A54818E5BAE500F34937 /* Build configuration list for PBXNativeTarget "GameOf2048" */;
+			buildPhases = (
+				B722A51218E5BAE400F34937 /* Sources */,
+				B722A51318E5BAE400F34937 /* Frameworks */,
+				B722A51418E5BAE400F34937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameOf2048;
+			productName = GameOf2048;
+			productReference = B722A51618E5BAE500F34937 /* GameOf2048.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B722A53618E5BAE500F34937 /* GameOf2048Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B722A54B18E5BAE500F34937 /* Build configuration list for PBXNativeTarget "GameOf2048Tests" */;
+			buildPhases = (
+				B722A53318E5BAE500F34937 /* Sources */,
+				B722A53418E5BAE500F34937 /* Frameworks */,
+				B722A53518E5BAE500F34937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B722A53D18E5BAE500F34937 /* PBXTargetDependency */,
+			);
+			name = GameOf2048Tests;
+			productName = GameOf2048Tests;
+			productReference = B722A53718E5BAE500F34937 /* GameOf2048Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B722A50E18E5BAE400F34937 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GameOf2048;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = RuiKQ;
+				TargetAttributes = {
+					B722A53618E5BAE500F34937 = {
+						TestTargetID = B722A51518E5BAE400F34937;
+					};
+				};
+			};
+			buildConfigurationList = B722A51118E5BAE400F34937 /* Build configuration list for PBXProject "GameOf2048" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B722A50D18E5BAE400F34937;
+			productRefGroup = B722A51718E5BAE500F34937 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B722A51518E5BAE400F34937 /* GameOf2048 */,
+				B722A53618E5BAE500F34937 /* GameOf2048Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B722A51418E5BAE400F34937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B722A53218E5BAE500F34937 /* Images.xcassets in Resources */,
+				B722A52418E5BAE500F34937 /* InfoPlist.strings in Resources */,
+				B722A52D18E5BAE500F34937 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B722A53518E5BAE500F34937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B722A54318E5BAE500F34937 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B722A51218E5BAE400F34937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B722A53018E5BAE500F34937 /* GameOf2048ViewController.m in Sources */,
+				B722A52618E5BAE500F34937 /* main.m in Sources */,
+				B722A52A18E5BAE500F34937 /* GameOf2048AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B722A53318E5BAE500F34937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B722A54518E5BAE500F34937 /* GameOf2048Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B722A53D18E5BAE500F34937 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B722A51518E5BAE400F34937 /* GameOf2048 */;
+			targetProxy = B722A53C18E5BAE500F34937 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B722A52218E5BAE500F34937 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B722A52318E5BAE500F34937 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B722A52B18E5BAE500F34937 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B722A52C18E5BAE500F34937 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B722A54118E5BAE500F34937 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B722A54218E5BAE500F34937 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B722A54618E5BAE500F34937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B722A54718E5BAE500F34937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B722A54918E5BAE500F34937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameOf2048/GameOf2048-Prefix.pch";
+				INFOPLIST_FILE = "GameOf2048/GameOf2048-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B722A54A18E5BAE500F34937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameOf2048/GameOf2048-Prefix.pch";
+				INFOPLIST_FILE = "GameOf2048/GameOf2048-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B722A54C18E5BAE500F34937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GameOf2048.app/GameOf2048";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameOf2048/GameOf2048-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GameOf2048Tests/GameOf2048Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B722A54D18E5BAE500F34937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GameOf2048.app/GameOf2048";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameOf2048/GameOf2048-Prefix.pch";
+				INFOPLIST_FILE = "GameOf2048Tests/GameOf2048Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B722A51118E5BAE400F34937 /* Build configuration list for PBXProject "GameOf2048" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B722A54618E5BAE500F34937 /* Debug */,
+				B722A54718E5BAE500F34937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B722A54818E5BAE500F34937 /* Build configuration list for PBXNativeTarget "GameOf2048" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B722A54918E5BAE500F34937 /* Debug */,
+				B722A54A18E5BAE500F34937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B722A54B18E5BAE500F34937 /* Build configuration list for PBXNativeTarget "GameOf2048Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B722A54C18E5BAE500F34937 /* Debug */,
+				B722A54D18E5BAE500F34937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B722A50E18E5BAE400F34937 /* Project object */;
+}
